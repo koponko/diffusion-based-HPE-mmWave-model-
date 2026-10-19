@@ -1,0 +1,12 @@
+NOTES TO SLEF
+
+1. The model is quite close the POINTNET architecture described in the original paper.
+  - It has Multi-resolution grouping (MRG) which combines information summarized from the previous level used to construct the information in the smaller subregion.
+  
+
+  - Random input dropout
+  - T-Net for learning transformations. This is part of the original PointNet architecture
+  - The implemented POINTNET model includes a random and farthest point sampling (FPS) option. 
+    - The idea behind this is FPS might pick only outlier points and not focus on the object of interest
+    - The amount of FPS vs. random sampling is learned using a neural network
+  -
