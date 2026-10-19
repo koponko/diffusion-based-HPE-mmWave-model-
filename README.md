@@ -6,7 +6,7 @@ This project builds upon existing research and uses publicly available research 
 
 ### Dataset
 
-The **M4Human** dataset was used in this project for [briefly describe how you used the dataset, e.g., training, validation, or evaluation]. The dataset was developed by Fan et al.
+The **M4Human** dataset was used in this project for training and evaluation of the model. The dataset was developed by Fan et al.
 
 - Repository: https://github.com/FanJunqiao/M4Human
 - Project website: https://fanjunqiao.github.io/M4Human-site/
